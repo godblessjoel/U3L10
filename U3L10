@@ -1,0 +1,66 @@
+print('*' * 65)
+print('Life Decision Bot')
+print()
+
+answer = input('Are you happy? ')
+if answer == 'Yes':
+	print('Clap them hands')
+	print('Clap Clap')
+	print('dress up and go out.')
+	print('You deserve it.')
+	print('what do I know.')
+else: 
+	print("That's too bad.")
+	print("Because if you were happy and you knew it you could clap your hands.")
+	print('Just buy a tub of ice cream and binge watch The Office or something.')
+print('*' * 65)
+
+print('-'*65)
+print('Best Borough Bot:')
+print()
+
+borough = input('What borough are you from? ')
+
+if borough == 'Brooklyn':
+	print('Nice, Brooklyn is the best borough!')
+else:
+	print('Too bad, everywhere else sucks!')
+	print('Obviously...')
+	print('But really, Brooklyn is the best.') 
+
+print('-'*65)
+
+print('-' * 50)
+print('Welcome to CLUB425, the most lit club in downtown ACTvF. Before you can enter, I need you to answer one question... ')
+print()
+
+age = input('How old are you? ')
+age = int(age)
+if age >= 21:
+	print()
+	print('Cool, come in.')
+else: 
+	print()
+	print('Well this club is 21 or older so get lost!')
+
+print('-' * 50)
+
+print('-'*65)
+print('Booze Bot')
+print()
+print("I'm a vending machine that dispenses different kinds of alcohol. Please answer the following question:")
+print()
+
+age = input('How old are you? ')
+
+age = int(age)
+
+if age >= 21: 
+	order = input('What would you like to order? ')
+	print( 'Please pay by inserting your card. Pick up your ' + order + ' from the slot below.')
+
+else: 
+	years = 21 - age
+	years = str(years)
+	print("I think you're a bit too young to have alcohol. Come back in " + years + " years to order.")
+print('-'*65)
